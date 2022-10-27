@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: white;
@@ -41,8 +41,8 @@ body {
 
 .search-icon {
     position: absolute;
-    left: 336px;
-    top: 90px;
+    left: 326px;
+    top: 80px;
     color: grey;
 }
 

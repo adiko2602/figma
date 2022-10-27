@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 10px;
+    padding: 0;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -55,8 +55,8 @@ body {
 .absolute {
     z-index: 99999;
     position: absolute;
-    top: 900px;
-    left: 330px;
+    top: 890px;
+    left: 320px;
 }
 
 .hover {
