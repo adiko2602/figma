@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+.card {
+    width: 100%;
+    border-radius: 0.75rem;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    box-shadow: 0 10px 6px -6px grey;
+}
+
+.card-detail-avatar {
+    display: flex;
+    flex-direction: row;
+}
+.card-header {
+    padding: 1rem;
+    padding-left: 0;
+    margin-left: 2rem;
+    color:rgb(101, 101, 255);
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-detail {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    padding-left: 0;
+    margin-left: 2rem;
+}
+
+.card-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #0c0c0c;
+}
+
+.card-footer {
+    margin-top: 10px;
+    color: grey;   
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+
+}
+
+.container {
+    border-radius: 0.5rem;
+    background-color: rgb(219, 219, 219);
+    width: 340px;
+    padding: 10px;
+}
+
+.header {
+    padding: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar > input {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    border-bottom: 1px solid grey;
+    color: grey;
+    padding: 10px;
+}
+
+.search-bar > input:focus {
+    outline: 0;
+}
+
+.search-icon {
+    position: absolute;
+    left: 326px;
+    top: 80px;
+    color: grey;
+}
+
+.search-result {
+    margin-top: 20px;;
+    padding: 10px;
+}
+
+.post-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.post-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    object-fit: cover;
+    margin-right: 10px;
+    max-width: 120px;
+    max-height: 120px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.image-small {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: rgb(101, 101, 255);
+}
+
+.post-title {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(101, 101, 255);
+}
+
+.post-footer {
+    margin-top: 10px;
+    color: grey;   
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+
+}
